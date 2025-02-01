@@ -1,0 +1,11 @@
+a={1,2,3}
+print(f"집합a: {a}")
+a.add(3)
+a.add(4)
+print(f"add후: {a}")
+a.remove(4)
+print(f"제거후: {a}")
+a.update((1,2,3,4,5))
+a.update([1,2,3,4,5])
+a.update({1,2,3,4,5})
+print(f"update후: {a}")

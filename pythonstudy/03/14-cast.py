@@ -1,0 +1,5 @@
+k=input("국어점수를 입력하세요: ")
+e=input("영어점수를 입력하세요: ")
+m=input("수학점수를 입력하세요: ")
+total=int(k)+int(e)+int(m)
+print(f"세 과목의 총점은 {total}입니다")
